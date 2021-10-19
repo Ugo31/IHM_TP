@@ -1,0 +1,1 @@
+C:\Users\3asri25.AIP\Desktop\PROJET_IHM\upssitech-master\upssitech-master\SRI\3A\IHM\TP\Outils\icar.1.2\icar\Icarivy.bat
