@@ -25,18 +25,18 @@
 		<tag> out = "none" </tag>
 		<one-of>
 			<item> créer <tag> out = "CREATE" </tag></item>
-			<item> déssiner <tag> out = "CREATE" </tag></item>
+			<item> dessiner <tag> out = "CREATE" </tag></item>
 			<item> tracer <tag> out = "CREATE" </tag></item>
 
 			<item> supprimer <tag> out = "DELETE" </tag></item>
 			<item> effacer <tag> out = "DELETE" </tag></item>
 			
-			<item> deplacer  <tag> out = "MOVE" </tag></item>
+			<item> déplacer  <tag> out = "MOVE" </tag></item>
 			<item> bouger  <tag> out = "MOVE" </tag></item>
 
 			<item> quitter <tag> out = "QUIT" </tag></item>
 			<item> sortir <tag> out = "QUIT" </tag></item>
-			<item> arreter <tag> out = "QUIT" </tag></item>
+			<item> arrêter <tag> out = "QUIT" </tag></item>
 		</one-of>
 	</rule>
 
@@ -44,7 +44,7 @@
 		<tag> out = "none" </tag>
 		<one-of>
 			<item> cette forme <tag> out = "THIS" </tag></item>
-			<item> ca <tag> out = "THIS" </tag></item>
+			<item> ça <tag> out = "THIS" </tag></item>
 		</one-of>
 	</rule>
 
@@ -76,9 +76,9 @@
 	<rule id="localisation">
 		<tag> out = "none" </tag>	
 		<one-of>
-			<item> la <tag> out = "THERE" </tag></item>
+			<item> là <tag> out = "THERE" </tag></item>
 			<item> ici <tag> out = "THERE" </tag></item>
-			<item> a cet endroit <tag> out = "THERE" </tag></item>
+			<item> à cet endroit <tag> out = "THERE" </tag></item>
 		</one-of>
 	</rule>
 </grammar>
