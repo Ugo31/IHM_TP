@@ -11,7 +11,7 @@ class MyAgentParole(IvyServer):
 
         self.interface.create("rectangle",20,20,'red')
         self.interface.create("circle",100,100,'green')
-        self.interface.create("circle",120,100,'dark')
+        self.interface.create("circle",120,100)
 
         self.init_vars()
         IvyServer.__init__(self,'MonAgentParole')
