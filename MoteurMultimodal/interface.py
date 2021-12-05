@@ -77,6 +77,12 @@ class Triangle(Forme):
         self.type ="TRIANGLE"
 
     def draw(self, canvas):
+        self.x1 = self.x - self.s
+        self.y1 = self.y + self.s
+        self.x2 = self.x + self.s
+        self.y2 = self.y
+        self.x3 = self.x - self.s
+        self.y3 = self.y - self.s
         points = [
             self.x1,
             self.y1,
